@@ -6,7 +6,8 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-![](https://drive.google.com/uc?export=view&id=1HwwgB9RsVbVmVLGTDYJjqR4VH_8gmZ1x =250x250)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)
+![](https://drive.google.com/uc?export=view&id=1HwwgB9RsVbVmVLGTDYJjqR4VH_8gmZ1x)
 ![CHEES!](https://drive.google.com/uc?export=view&id=1I-TFm6SGGkRyCqLpc4iAUDSIUhy2tNK7)
 ![CHEES!](https://drive.google.com/uc?export=view&id=1HzjqKJ6633pJwufw7XNRP5LPp59hLXme)
 
