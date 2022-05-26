@@ -5,8 +5,7 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)
+<img src="https://drive.google.com/uc?export=view&id=1HwwgB9RsVbVmVLGTDYJjqR4VH_8gmZ1x" width="100" height="100">
 ![](https://drive.google.com/uc?export=view&id=1HwwgB9RsVbVmVLGTDYJjqR4VH_8gmZ1x)
 ![CHEES!](https://drive.google.com/uc?export=view&id=1I-TFm6SGGkRyCqLpc4iAUDSIUhy2tNK7)
 ![CHEES!](https://drive.google.com/uc?export=view&id=1HzjqKJ6633pJwufw7XNRP5LPp59hLXme)
