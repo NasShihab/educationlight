@@ -9,22 +9,22 @@ class HomePageProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  int index = 0;
+  int indexq = 0;
 
   void changeIndex (int index){
-    this.index = index;
+    this.indexq = index;
     notifyListeners();
   }
 
   void forWard(int index){
-    this.index = index;
+    this.indexq = index;
     index++;
     changeIndex(index);
     notifyListeners();
   }
 
   void backWard(int index){
-    this.index = index;
+    this.indexq = index;
     index--;
     changeIndex(index);
     notifyListeners();
