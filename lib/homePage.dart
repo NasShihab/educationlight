@@ -2,15 +2,9 @@ import 'package:educationlight/englishAlphabet.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class homePage extends StatefulWidget {
-  const homePage({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
-  @override
-  State<homePage> createState() => _homePageState();
-}
-
-
-class _homePageState extends State<homePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,8 +30,8 @@ class _homePageState extends State<homePage> {
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) {
-                        return englishAlphabet();
-                      },
+                      return englishAlphabet();
+                    },
                     ),
                   );
                 },
@@ -69,7 +63,7 @@ class _homePageState extends State<homePage> {
                                 color: Colors.white,
                                 fontSize: 20,
                                 textStyle:
-                                    TextStyle(fontWeight: FontWeight.bold)),
+                                TextStyle(fontWeight: FontWeight.bold)),
                           ),
                         ),
                       ),
@@ -84,5 +78,4 @@ class _homePageState extends State<homePage> {
     );
   }
 }
-
 

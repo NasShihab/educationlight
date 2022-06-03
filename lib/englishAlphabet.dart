@@ -11,9 +11,7 @@ class englishAlphabet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(
           centerTitle: true,
           title: Text('English Fruits Alphabet'),
@@ -48,7 +46,7 @@ class englishAlphabet extends StatelessWidget {
                       onTap: (){
                         Navigator.of(context).push(
                           MaterialPageRoute(builder: (context) {
-                            return fruitDetails(index: index, dat: dat);
+                            return ffruitdetails(index: index, dat: dat);
                           },
                           ),
                         );
@@ -57,7 +55,6 @@ class englishAlphabet extends StatelessWidget {
                 }),
           ),
         ),
-      ),
-    );
+      );
   }
 }

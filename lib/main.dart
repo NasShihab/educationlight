@@ -1,7 +1,9 @@
+import 'package:educationlight/Provider/HomePageProvider.dart';
+import 'package:educationlight/englishAlphabet.dart';
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:google_fonts/google_fonts.dart';
-import 'package:educationlight/homePage.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,10 +17,9 @@ final style = TextStyle(fontSize: 50);
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: SafeArea(
-          child: homePage(),
-        ),
+      home: ChangeNotifierProvider(
+        create: (context) => HomePageProvider(),
+        child: englishAlphabet(),
       ),
     );
   }
