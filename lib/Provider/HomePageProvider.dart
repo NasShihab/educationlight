@@ -13,21 +13,13 @@ class HomePageProvider extends ChangeNotifier {
     this.indexq = indexq;
     indexq++;
     changeIndexq(indexq);
-    notifyListeners();
   }
 
   void backWard(int indexq){
     this.indexq = indexq;
     indexq--;
     changeIndexq(indexq);
-    notifyListeners();
-  }
 
-  bool change = true;
-
-  void updateWidget(){
-    change = !change;
-    notifyListeners();
   }
 
 }
