@@ -1,5 +1,5 @@
 import 'package:educationlight/Provider/HomePageProvider.dart';
-import 'package:educationlight/englishAlphabet.dart';
+import 'package:educationlight/homePage.dart';
 import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:google_fonts/google_fonts.dart';
@@ -19,7 +19,7 @@ final style = TextStyle(fontSize: 50);
     return ChangeNotifierProvider(create: (context) => HomePageProvider(),
     child: MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: englishAlphabet(),
+      home: HomePage(),
     ),);
   }
 }

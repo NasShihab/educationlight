@@ -74,37 +74,37 @@ List<data> datas = [
       image: 'images/fruits/mango.png',
       fruitdetails: 'Apple is red'),
   data(
-      frname: 'Orange',
+      frname: 'N',
       letter: 'N',
       image: 'images/fruits/apple.png',
       fruitdetails: 'Apple is red'),
   data(
-      frname: 'Papaya',
+      frname: 'Orange',
       letter: 'O',
       image: 'images/fruits/orange.png',
       fruitdetails: 'Apple is red'),
   data(
-      frname: 'Quince',
+      frname: 'Pinapple',
       letter: 'P',
       image: 'images/fruits/pineapple.png',
       fruitdetails: 'Apple is red'),
   data(
-      frname: 'Raspberry',
+      frname: 'Quince',
       letter: 'Q',
       image: 'images/fruits/quince.png',
       fruitdetails: 'Apple is red'),
   data(
-      frname: 'Strawberry',
+      frname: 'R',
       letter: 'R',
-      image: 'images/fruits/strawberry.png',
-      fruitdetails: 'Apple is red'),
-  data(
-      frname: 'Tangerine',
-      letter: 'S',
       image: 'images/fruits/apple.png',
       fruitdetails: 'Apple is red'),
   data(
-      frname: 'Ugli fruit',
+      frname: 'Srawberry',
+      letter: 'S',
+      image: 'images/fruits/strawberry.png',
+      fruitdetails: 'Apple is red'),
+  data(
+      frname: 'T',
       letter: 'T',
       image: 'images/fruits/apple.png',
       fruitdetails: 'Apple is red'),
