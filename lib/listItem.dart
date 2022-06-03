@@ -7,7 +7,6 @@ class iteamList extends StatefulWidget {
   State<iteamList> createState() => _iteamListState();
 }
 
-
 List<data> datas = [
   data(frname: 'Apple', letter: 'A', image: 'images/fruits/apple.png', fruitdetails: 'Apple is red'),
   data(frname: 'Banana', letter: 'B', image: 'images/fruits/banana.png', fruitdetails: 'Apple is red'),
