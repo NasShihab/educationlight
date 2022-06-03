@@ -16,12 +16,10 @@ final style = TextStyle(fontSize: 50);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return ChangeNotifierProvider(create: (context) => HomePageProvider(),
+    child: MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ChangeNotifierProvider(
-        create: (context) => HomePageProvider(),
-        child: englishAlphabet(),
-      ),
-    );
+      home: englishAlphabet(),
+    ),);
   }
 }

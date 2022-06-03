@@ -2,31 +2,31 @@ import 'package:flutter/material.dart';
 
 class HomePageProvider extends ChangeNotifier {
 
-  bool click = false;
-
-  void updatePage(){
-    click = !click;
-    notifyListeners();
-  }
-
   int indexq = 0;
 
-  void changeIndex (int index){
-    this.indexq = index;
+  void changeIndexq (int indexq){
+    this.indexq = indexq;
     notifyListeners();
   }
 
-  void forWard(int index){
-    this.indexq = index;
-    index++;
-    changeIndex(index);
+  void forWard(int indexq){
+    this.indexq = indexq;
+    indexq++;
+    changeIndexq(indexq);
     notifyListeners();
   }
 
-  void backWard(int index){
-    this.indexq = index;
-    index--;
-    changeIndex(index);
+  void backWard(int indexq){
+    this.indexq = indexq;
+    indexq--;
+    changeIndexq(indexq);
+    notifyListeners();
+  }
+
+  bool change = true;
+
+  void updateWidget(){
+    change = !change;
     notifyListeners();
   }
 
