@@ -148,10 +148,7 @@ class _iteamListState extends State<iteamList> {
 }
 
 class data {
-  final String frname;
-  final String letter;
-  final String image;
-  final String fruitdetails;
+  final String frname; final String letter; final String image; final String fruitdetails;
   data({
     required this.frname,
     required this.letter,
